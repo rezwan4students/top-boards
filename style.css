@@ -1,0 +1,43 @@
+body {
+    background-color:  #F3F1FF;
+    
+}
+.player-blog-section {
+    width:75%;
+    background-color: white;
+    margin:20px auto;
+    
+   
+    
+    
+    
+}
+
+.all-players {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 10px;
+}
+
+.person {
+    display: flex;
+}
+
+.person img {
+    height: 56px;
+    width: 56px;
+}
+.blog-sections{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 20px;
+}
+.blog-articles {
+    display: flex;
+    
+}
+.blog-img img {
+    width:  177px;
+    height: 116px;
+
+}
